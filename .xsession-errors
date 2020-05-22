@@ -1,0 +1,76 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/samuel/.Xauthority
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LANG=en_NG
+dbus-update-activation-environment: setting GDM_LANG=en_US
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting GTK_OVERLAY_SCROLLING=0
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/samuel
+dbus-update-activation-environment: setting USER=samuel
+dbus-update-activation-environment: setting DESKTOP_SESSION=xubuntu
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=gtk2
+dbus-update-activation-environment: setting PWD=/home/samuel
+dbus-update-activation-environment: setting HOME=/home/samuel
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xubuntu
+dbus-update-activation-environment: setting CLUTTER_BACKEND=x11
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LANGUAGE=en_US
+dbus-update-activation-environment: setting GDMSESSION=xubuntu
+dbus-update-activation-environment: setting LOGNAME=samuel
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XAUTHORITY=/home/samuel/.Xauthority
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+VBoxClient: error: No service specified. Quitting because nothing to do!
+VBoxClient: error: unrecognized option '--display'
+
+(xfce4-session:989): xfce4-session-WARNING **: 18:22:49.556: xfsm_manager_load_session: Something wrong with /home/samuel/.cache/sessions/xfce4-session-samuel-VirtualBox:0, Does it exist? Permissions issue?
+** Message: 18:22:49.893: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+
+(polkit-gnome-authentication-agent-1:1042): GLib-CRITICAL **: 18:22:51.872: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1042): polkit-gnome-1-WARNING **: 18:22:51.873: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+VBoxClient: error: No service specified. Quitting because nothing to do!
+VBoxClient: error: unrecognized option '--display'
+
+(xfsettingsd:1015): xfsettingsd-WARNING **: 18:22:58.238: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(nm-applet:1054): Gtk-WARNING **: 18:22:58.371: Can't set a parent on widget which has a parent
+
+** (wrapper-2.0:1148): WARNING **: 18:23:00.919: No outputs have backlight property
+
+(wrapper-2.0:1143): GLib-GIO-CRITICAL **: 18:23:01.218: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1143): GLib-GIO-CRITICAL **: 18:23:01.223: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1143): GLib-GObject-WARNING **: 18:23:01.225: invalid (NULL) pointer instance
+
+(wrapper-2.0:1143): GLib-GObject-CRITICAL **: 18:23:01.225: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1143): Gtk-WARNING **: 18:23:01.225: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:1143): Gtk-WARNING **: 18:23:01.851: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1149): Gtk-WARNING **: 18:23:02.111: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:1148): Gtk-WARNING **: 18:23:02.665: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+thunar-volman: Unsupported USB device type "usb".
+thunar-volman: Unsupported USB device type "usbhid".
+
+(wrapper-2.0:1132): Gtk-WARNING **: 18:23:05.076: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
